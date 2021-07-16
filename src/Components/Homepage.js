@@ -5,6 +5,7 @@ import "./Homepage.css";
 function Homepage() {
   return (
     <div className="hero-container">
+      <video src="/video/home.mp4" autoPlay loop muted />
       <h1>We make your website look great</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
